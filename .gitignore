@@ -1,0 +1,22 @@
+# .gitignore
+# Ignore IDE/editor config
+*.log
+*.bak
+*.tmp
+.DS_Store
+*.swp
+
+# Ignore environment files
+.env
+
+# Ignore vendor or package folders if you have them
+vendor/
+node_modules/
+
+# Ignore cache and session files
+__pycache__/
+*.cache
+# Ignore heavy frontend libraries
+assets/fontawesome/
+assets/jquery/
+assets/bootstrap/
